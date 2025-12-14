@@ -53,7 +53,7 @@ const Navbar = () => {
                     </NavLink>
 
                     <NavLink to='/categories'>
-                        <li className="cursor-pointer hover:text-blue-900">Categories</li>
+                        <li className="cursor-pointer hover:text-blue-900">Hotel</li>
                     </NavLink>
 
                     <NavLink to='/destination'>
@@ -64,9 +64,7 @@ const Navbar = () => {
                         <li className="cursor-pointer hover:text-blue-900">Blog</li>
                     </NavLink>
 
-                    {/* <NavLink to='/pages'>
-                        <li className="cursor-pointer hover:text-blue-900">Pages</li>
-                    </NavLink> */}
+    
                     <li>
                         <button onClick={() => setHiddenPages(!hiddenPages)} className={'relative hover:text-blue-900 duration-300 group'}>
                             <span className='duration-300 hover:text-blue-900 relative cursor-pointer'>Pages</span>
