@@ -20,12 +20,10 @@ const CarCard = () => {
                             <CiHeart className="w-5 h-5" />
                         </button>
                     </div>
-
                     {/* Top text */}
                     <p className="text-sm text-gray-500 mt-3">
                         {car.location} • {car.category}
                     </p>
-
                     {/* Title */}
                     <h3 className="text-lg font-semibold">{car.title}</h3>
 

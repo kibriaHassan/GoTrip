@@ -14,7 +14,6 @@ const Banner = () => {
                     </h1>
                     <p className='pt-1.5 pb-6.25'>Book better cars from local hosts across the US and around the world.</p>
                 </div>
-
                 <PickUpLocation />
 
                 <div className='relative h-100'>

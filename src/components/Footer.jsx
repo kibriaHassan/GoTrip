@@ -83,7 +83,6 @@ const Footer = () => {
                         </div>
                     </div>
 
-
                     <div className="flex items-center gap-4">
                         <span>English (US) &nbsp; $ USD</span>
                         <span>in</span>

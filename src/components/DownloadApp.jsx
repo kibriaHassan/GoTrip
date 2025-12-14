@@ -17,6 +17,7 @@ const DownloadApp = () => {
                         </div>
                     </div>
                     <div>
+                        
                         <img src={DownloadAppImg} alt="" />
                     </div>
                 </div>

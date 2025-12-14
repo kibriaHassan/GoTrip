@@ -34,7 +34,6 @@ export default function Faq() {
       </div>
 
       <div className="max-w-3xl mx-auto bg-white rounded-xl border border-gray-200 divide-y">
-
         {faqs.map((item, index) => (
           <div key={index} className="p-5">
             <button
@@ -48,7 +47,6 @@ export default function Faq() {
                 {activeIndex === index ? '−' : '+'}
               </span>
             </button>
-
             {activeIndex === index && (
               <div id={`faq-${index}`} className="mt-3 text-gray-500 text-sm leading-relaxed ">
                 {item.a}

@@ -5,8 +5,6 @@ import { NavLink, Link } from 'react-router';
 import { FaWindowClose } from 'react-icons/fa';
 import { FaBarsStaggered } from 'react-icons/fa6';
 
-
-
 const Navbar = () => {
 
     const [scroll, setScroll] = useState(false)
@@ -16,16 +14,13 @@ const Navbar = () => {
         const scroll = () => {
             if (window.scrollY >= 50) {
                 setScroll(true)
-                // console.log("fffff");
 
             } else {
                 setScroll(false)
-                // console.log('hhhh');
             }
         }
         window.addEventListener('scroll', scroll)
     }, [])
-
     const [hiddenPages, setHiddenPages] = useState(true)
     const [isOpen, setisopen] = useState(false)
     useEffect(() => {
@@ -64,7 +59,6 @@ const Navbar = () => {
                         <li className="cursor-pointer hover:text-blue-900">Blog</li>
                     </NavLink>
 
-    
                     <li>
                         <button onClick={() => setHiddenPages(!hiddenPages)} className={'relative hover:text-blue-900 duration-300 group'}>
                             <span className='duration-300 hover:text-blue-900 relative cursor-pointer'>Pages</span>

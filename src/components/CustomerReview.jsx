@@ -84,7 +84,6 @@ const CustomerReview = () => {
                         <p>Overall Rating</p>
                         <img className='mt-2' src={stars} alt="" />
                     </div>
-
                     <img className='opacity-50' src={amazon} alt="" />
                     <img className='opacity-50' src={dropcam} alt="" />
                     <img className='opacity-50' src={logitech} alt="" />

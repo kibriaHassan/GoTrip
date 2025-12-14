@@ -33,10 +33,7 @@ const CarHire = () => {
                             <h2 className='text-[40px] font-semibold'>574,974</h2>
                             <p className='text-[#697488]'>Our Volunteers</p>
                         </div>
-
                     </div>
-
-
                 </div>
 
             </section>

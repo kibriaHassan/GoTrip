@@ -8,7 +8,6 @@ const destinations = [
   { name: "Paris", subtitle: "France" },
   { name: "Madrid", subtitle: "Spain" },
 ];
-
 // helper functions
 const isSameDate = (d1, d2) =>
   d1 &&
